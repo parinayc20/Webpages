@@ -1,0 +1,88 @@
+body
+{
+    background-image: url('https://home.iitk.ac.in/~parinayc20/background_homepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#title
+{
+    color: #fff;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 0.8cm;
+}
+#navbarNav
+{
+    font-size: 0.47cm;
+}
+.active
+{
+    font-weight: bold;
+    font-size: 0.48cm;
+}
+#name
+{
+    color:#ffffff;
+    font-size: 1.2cm;
+}
+#basic_info{
+    color: #b1b0b0;
+    font-size: 0.7cm;
+}
+.icon
+{
+    font-size: 1cm;
+}
+.icon1
+{
+    font-size: 1 cm;
+    margin-right: 9px;
+}
+a
+{
+    color: rgb(18, 173, 122) ;
+    text-decoration: none;
+}
+a:hover
+{
+    color: rgb(0, 183, 255);
+}
+#text a:hover
+{
+    text-decoration: underline;
+}
+#icons{  
+    display: inline;
+}
+.containermy{
+    margin:8.2px;
+    width: 100%;
+}
+#heading
+{
+    color:white;
+    font-size: 1cm;
+    font-weight: bold;
+}
+#text
+{
+    color:#b1b0b0;
+    font-size: 0.6cm;
+    font-family: 'Architects Daughter', cursive;
+}
+#education
+{
+    width:100%;
+    font-family: 'Quicksand', sans-serif;
+}
+@media (max-width: 576px){
+    .icon
+    {
+        font-size:1cm;
+    }
+    .containermy
+    {
+        margin:5px;
+    }
+}

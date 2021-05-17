@@ -9,7 +9,7 @@ This is the collection of the webpages that I build during my stay at IITK. Impr
 HTML 5
 CSS 3
 Javascript (Basics)
-Bootstrap (A lot)
+Bootstrap
 ```
 ## List of Utilities I aim for
 ```

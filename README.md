@@ -3,6 +3,8 @@ This is the collection of the webpages that I build during my stay at IITK. Impr
 
 *This webpage isn't made with the help of any template, except for a jquery template for the count-up feature*
 
+*There is a separate readme file inside the extension folder which deals with the information regarding the extension*
+
 **This homepage is available [here](https://home.iitk.ac.in/~parinayc20/)**
 ## List of Utilities used till now
 ```

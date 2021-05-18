@@ -1,0 +1,208 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<category>
+    <pattern>WHAT ARE THE SYMPTOMS OF COVID 19</pattern>
+    <template>Some common Symptoms of COVID-19 are fever, dry cough, tiredness, loss of taste and smell.</template>
+</category>
+
+<category>
+    <pattern>HOW IS COVID 19 MOSTLY TRANSMITTED</pattern>
+    <template>Current evidence suggests that COVID-19 spreads between people through direct, indirect, or close contact with infected people via mouth and nose secretions.</template>
+</category>
+
+<category>
+    <pattern>HOW TO PREVENT THE SPREAD OF COVID 19</pattern>
+    <template>To prevent the spread of COVID-19, clean your hands often, maintain social distancing, wear a mask whenever in close physical proximity and seek medical attention whenever necessary.</template>
+</category>
+
+<category>
+    <pattern>WHEN WILL VACCINATION START IN INDIA</pattern>
+    <template>The first phase of vaccination will start in India on 16th January, 2021.</template>
+</category>
+
+<category>
+    <pattern>NAME A VACCINE AGAINST COVID 19</pattern>
+    <template>
+        <random>
+        <li>Covishield</li>
+        <li>Covaxin</li>
+        <li>Sputnik-V </li>
+        <li>Pfizer Vaccine</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>NAME A VACCINE AGAINST COVID 19 IN INDIA</pattern>
+    <template>
+    <random>
+        <li>Covishield</li>
+        <li>Covaxin</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>Where did Covid 19 first originate from</pattern>
+    <template>COVID-19 is said to have first originated in early December, 2019 in China, in the wholesale food market in Wuhan.</template>
+</category>
+
+<category>
+    <pattern>WHICH VIRUS CAUSES COVID 19</pattern>
+    <template>The coronavirus is called SARS-CoV-2.</template>
+</category>
+
+<category>
+    <pattern>WHO IS THE MOST AT RISK OF SEVERE ILLNESS FROM COVID 19</pattern>
+    <template>People aged 60 years and over, and those with underlying medical problems like high blood pressure, heart and lung problems, diabetes, obesity or cancer, are at higher risk of developing serious illness.</template>
+</category>
+
+<category>
+    <pattern>WHICH COUNTRY HAS THE HIGHEST NUMBER OF COVID 19 CASES</pattern>
+    <template>United States of America has the highest number of COVID-19 cases till date.</template>
+</category>
+<category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>I can do the following things for you:
+            1)Find hospitals near you
+            2)Remember a thing you said to me
+            3)Give you covid stats (Globally/Country Wise)
+            4)Search anything on wikipedia and display the results here itself
+            5)Change input medium(voice to text and vice versa)
+            6)Provide you deatils about symptoms and precautions and vaccines on covid-19
+            7)Provide you other useful information regarding covid-19
+            8)Show you the correct way of washing hands
+            9)Run a health checkup for you
+            10)Last but not the least, talk as a friend with you.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ALL CAN YOU DO FOR ME</pattern>
+    <template><srai>WHAT CAN YOU DO</srai></template>
+</category>
+<category>
+    <pattern>CHANGE INPUT MEDIUM</pattern>
+    <template>7</template>
+</category>
+<category>
+    <pattern>SEARCH WIKIPEDIA</pattern>
+    <template>6</template>
+</category>
+<category>
+    <pattern>REMEMBER *</pattern>
+    <template>Ok I will remember that<think><set name="remember"><star/></set></think></template>
+</category>
+<category>
+    <pattern>WHAT WAS THE THING I HAD ASKED YOU TO REMEMBER</pattern>
+    <template>You had asked me to remember <get name="remember"></get></template>
+</category>
+<category>
+    <pattern>RUN HEALTH CHECKUP</pattern>
+    <template>Are you feeling sick</template>
+</category>
+<category>
+    <pattern>RUN HEALTH CHECK UP</pattern>
+    <template><srai>RUN HEALTH CHECKUP</srai></template>
+</category>
+<category>
+    <pattern>RUN HEALTH CHECK UP FOR ME</pattern>
+    <template><srai>RUN HEALTH CHECKUP</srai></template>
+</category>
+<category>
+    <pattern>YES</pattern>
+    <that>ARE YOU FEELING SICK</that>
+    <template>5</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>ARE YOU FEELING SICK</that>
+    <template>Just chill dude, do not worry so much!</template>
+</category>
+<category>
+    <pattern>START HEALTH CHECKUP</pattern>
+    <template><srai>RUN HEALTH CHECKUP</srai></template>
+</category>
+<category>
+    <pattern>HOSPITALS NEAR ME</pattern>
+    <template>2</template>
+</category>
+<category>
+    <pattern>FIND HOSPITALS NEAR ME</pattern>
+    <template><srai>HOSPITALS NEAR ME</srai></template>
+</category>
+<category>
+    <pattern>HELLO THERE</pattern>
+    <template> 
+        <random>
+            <li> Hello my friend </li>
+            <li> Hola </li>
+            <li> Hey There </li>
+            <li> Hi </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>
+        <random>
+            <li> I am doing just as always.</li>
+            <li> I am fine and always there to help you.</li>
+            <li> I am feeling quite fresh today. It seems to be a good day.</li>
+            <li> Full of energy and ready to help </li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>HELLO</pattern>
+    <template><srai>HELLO THERE</srai></template>
+</category>
+<category>
+    <pattern>HELLO COBOT</pattern>
+    <template><srai>HELLO THERE</srai></template>
+</category>
+<category>
+    <pattern>WHO ARE YOU</pattern>
+    <template>I am Cobot-19</template>
+</category>
+<category>
+    <pattern>GIVE ME COVID STATS</pattern>
+    <template>On the browser or here</template>
+</category>
+<category>
+    <pattern>ON THE BROWSER</pattern>
+    <that>ON THE BROWSER OR HERE</that>
+    <template>3</template>
+</category>
+<category>
+    <pattern>HERE</pattern>
+    <that>ON THE BROWSER OR HERE</that>
+    <template>1</template>
+</category>
+<category>
+    <pattern>PROVIDE ME COVID STATS</pattern>
+    <template><srai>GIVE ME COVID STATS</srai></template>
+</category>
+<category>
+    <pattern>UPDATE ME REGARDING CORONAVIRUS CASES</pattern>
+    <template><srai>GIVE ME COVID STATS</srai></template>
+</category>
+<category>
+    <pattern>WHAT IS THE CORRECT WAY OF WASHING HANDS</pattern>
+    <template>4</template>
+</category>
+<category>
+    <pattern>SHOW ME THE CORRECT WAY OF WASHING HANDS</pattern>
+    <template>4</template>
+</category>
+<category>
+    <pattern>HOW SHOULD I WASH MY HANDS</pattern>
+    <template>4</template>
+</category>
+<category>
+    <pattern>WHO MADE YOU</pattern>
+    <template>I was made by team Spherical Cows</template>
+</category>
+<category>
+    <pattern>*</pattern>
+    <template>Sorry, I don't know that </template>
+</category>
+</aiml>
